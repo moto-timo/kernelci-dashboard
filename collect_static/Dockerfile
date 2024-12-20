@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.21.0
 
 RUN export LANG=en_US.UTF-8 \
     && apk update \
