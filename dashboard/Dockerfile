@@ -1,4 +1,4 @@
-FROM node:22.3-alpine
+FROM node:22.21.0-alpine
 
 WORKDIR /dashboard
 
