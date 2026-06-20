@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Create server docker image (all non-code dependencies)
-FROM alpine:3.20 as backend-base
+FROM alpine:3.21.2 as backend-base
 
 WORKDIR /
 
