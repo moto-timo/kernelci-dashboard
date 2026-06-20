@@ -1,4 +1,4 @@
-FROM nginx:1.27.0-alpine
+FROM nginx:1.27.5-alpine
 
 VOLUME ["/data/static"]
 
